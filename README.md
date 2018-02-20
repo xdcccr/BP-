@@ -1,5 +1,6 @@
 # BP-
 本文包括了R语言下的BP网络的实现方式
+```R
 library(nnet)
 data("iris")
 set.seed(2)
@@ -25,3 +26,4 @@ nn.table
 #需要先安装包caret，foreach,car,e1071
 library(caret)
 confusionMatrix(nn.table)
+```
